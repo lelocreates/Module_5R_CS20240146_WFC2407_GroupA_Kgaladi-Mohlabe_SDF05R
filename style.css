@@ -1,3 +1,12 @@
+:root {
+    --metalpink:  linear-gradient(top, #DDA6AE, #FFE6E9 25%, #ffffff 38%, #FFE6E9 63%, #f7f7f7 87%, rgba(38, 38, 38, 0.8));
+    --pink: #DDA6AE;
+    --neonpurp: #B026FF;
+    --purpB: #e6e6fa;
+    --pastelpink: #ffd1dc;
+    --yellow: #FFFF00;
+}
+
 body {
     background: #eeefed;
 }
@@ -39,7 +48,7 @@ p {
     padding: 10px 25px;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
-    background: transparent;
+    /*background: transparent;*/
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
@@ -52,3 +61,50 @@ p {
 }
 
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
+
+/*Button number one: Metallic pink, background is transparent when hovered but pink border remains*/
+.btn-1 {
+    border-color: var(--pink);
+    background: var(--metalpink);
+    background: -webkit-linear-gradient(top,  #DDA6AE, #FFE6E9 25%, #ffefef 38%, #D9A3A9  63%, #FFE6E9 87%, #DDA6AE);
+    color: grey;
+}
+
+.btn-1:hover{
+    border: var(--pastelpink) 0.2em solid;
+    background: var(--pink);
+    color: var(--pastelpink);
+    position: relative;
+}
+
+
+/*Button two with purple colour that changs to yellow when hovered over*/
+.btn-2 {
+    border: var(--yellow) 0.2em solid;
+    background: var(--neonpurp);
+    color: var(--yellow);
+    border-radius: 0.5em;
+    text-shadow: 0 0 0.2em var(--yellow), 0 0 0.5em 0 var(--yellow);
+    box-shadow: inset 0 0 0.5em 0 var(--neonpurp), 0 0 0.5em 0 var(--neonpurp);
+    position: relative; 
+}
+
+.btn-2:hover {
+    background: transparent;
+    text-shadow: 0 0 0.5em var(--yellow), 0 0 0.8em 0 var(--yellow);
+    box-shadow: inset 0 0 0.9em 0 var(--yellow), 0 0 0.9em 0 var(--yellow);
+    position: relative; 
+}
+
+/* Button three with a blue orange gradient and spins when hovered over*/
+.btn-3 {
+    border: none;
+    background: #1f1ff9;
+    background-image: linear-gradient(315deg, #1f1ff9 0%, #fe7621 90%);
+}
+
+.btn-3:hover {
+    font-weight: bolder;
+    transform: rotate(360deg);
+    transition: all 3s linear both;
+}
