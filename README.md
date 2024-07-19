@@ -1,3 +1,31 @@
+# Project Description 
+This project showcases the CSS skills we development in our third week at Codespace. Shown in this repo are custom-styled buttons using CSS, featuring various styles and effects. 
+
+# Changes made 
+## Metallic Pink Button
+ This button has a metallic gradient background. On hover, the background changes to pink, and the border color adjusts. I love the metallic effect and the smooth hover transition, which make this button visually appealing.
+## Neon Purple Button
+This button sports a neon purple background with yellow text and borders. Hovering makes the background transparent, enhancing the neon effect.
+## Blue-Orange Gradient Button
+This button has a gradient from blue to orange and rotates 360 degrees when hovered over. The rotation effect on hover adds a unique and dynamic element to the button, making it the most challenging and my favorite part of the project.
+
+# Challenges
+I struggled with time management and making effective use of the starter code. However, I achieved the desired outcomes and created buttons that I'm particularly proud of and i hope that they meet the requirements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # [SDF05] CSS Magic Buttons
 
 Get ready to create animated buttons using CSS! This project focuses on creating three unique animated buttons using CSS. With this challenge, you'll dive into the world of CSS animations, transitions, and interactivity.
