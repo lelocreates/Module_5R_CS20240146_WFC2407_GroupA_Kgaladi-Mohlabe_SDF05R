@@ -106,5 +106,5 @@ p {
 .btn-3:hover {
     font-weight: bolder;
     transform: rotate(360deg);
-    transition: all 3s linear both;
+    transition: all 3s linear;
 }
